@@ -126,6 +126,7 @@ a{
     color: white;
     background-color: #2B4162;
     border: 2px solid #ee6c4d;
+    cursor: pointer;
 }
 .qualityicon{
     width: 80px;
@@ -160,6 +161,7 @@ a{
     color: white;
     background-color: #2B4162;
     border: 2px solid #ee6c4d;
+    cursor: pointer;
 }
 .costicon{
     width: 80px;
@@ -192,6 +194,7 @@ a{
     color: white;
     background-color: #2B4162;
     border: 2px solid #ee6c4d;
+    cursor: pointer;
 }
 .fasticon{
     width: 80px;
