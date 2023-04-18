@@ -1,0 +1,211 @@
+@font-face {
+    font-family: tisaregular;
+    src: url(../fonts/Tisa\ Sans\ Pro\ Regular.ttf);
+}
+@font-face {
+    font-family: tisabold;
+    src: url(../fonts/Tisa\ Sans\ Pro\ Bold.ttf);
+}
+body{
+    background-color: #eeeeee;
+}
+.divheader{
+    position: relative;
+    top: 0px;
+    height: 200px;
+    background-image: linear-gradient(to top, #a7a7a7, #6DADDB);
+}
+.divlogo{
+    position: absolute;
+    display: inline-block;
+    left: 25%;
+    top: 40px
+}
+.imglogo{
+width: 140px;
+height: 125px;
+}
+.divsearch{
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    left: 34%
+}
+.inputsearch{
+    width: 700px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-family: tisaregular;
+    font-size: 20px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+.divicon{
+    position: absolute;
+    display: inline-block;
+    left: 705px;
+    top: -14px;
+}
+.searchicon{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.divsocialmedia{
+    position: absolute;
+    display: inline-block;
+    left: 93%;
+    top: 77%;
+    cursor: pointer;
+}
+.telegramicon{
+    width: 40px;
+}
+.discordicon{
+    width: 40px;
+}
+.instagramicon{
+    width: 40px;
+}
+.divnav{
+    position: relative;
+    top: 0;
+    height: 50px;
+    background-image: linear-gradient(#12100E, #2B4162);
+}
+.navul{
+    position: absolute;
+    left: 630px;
+}
+.navli{
+    display: inline-block;
+    color: #d8d8d8;
+    font-family: tisabold;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 80px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+.navli:hover{
+    transform: scale(1.5);
+    color: white;
+}
+.section1{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    border-bottom: 3px solid #293241;
+    border-radius: 10px;
+}
+.div1section1{
+    position: relative;
+    border: 4px solid #3d5a80;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    transition: 400ms ease-in-out;
+}
+.div1section1:hover{
+    transform: scale(1.45);
+    color: white;
+    background-color: #2B4162;
+    border: 2px solid #ee6c4d;
+}
+.qualityicon{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 140px;
+    top: 5px;
+}
+.p1{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    font-family: tisabold;
+    font-size: 25px;
+}
+.p2{
+    position: absolute;
+    top: 170px;
+    font-family: tisaregular;
+    font-size: 25px;
+    text-align: center;
+}
+.div2section1{
+    position: relative;
+    border: 4px solid #3d5a80;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    transition: 400ms ease-in-out;
+}
+.div2section1:hover{
+    transform: scale(1.45);
+    color: white;
+    background-color: #2B4162;
+    border: 2px solid #ee6c4d;
+}
+.costicon{
+    position: absolute;
+    width: 80px;
+    height: 75px;
+    left: 140px;
+    top: 8px;
+}
+.p3{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    font-family: tisabold;
+    font-size: 25px;
+}
+.p4{
+    position: absolute;
+    top: 170px;
+    font-family: tisaregular;
+    font-size: 25px;
+    text-align: center;
+}
+.div3section1{
+    position: relative;
+    border: 4px solid #3d5a80;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    transition: 400ms ease-in-out;
+}
+.div3section1:hover{
+    transform: scale(1.45);
+    color: white;
+    background-color: #2B4162;
+    border: 2px solid #ee6c4d;
+}
+.fasticon{
+    position: absolute;
+    width: 80px;
+    height: 75px;
+    left: 140px;
+    top: 8px;
+}
+.p5{
+    position: absolute;
+    top: 80px;
+    left: 115px;
+    font-family: tisabold;
+    font-size: 25px;
+}
+.p6{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    font-family: tisaregular;
+    font-size: 25px;
+    text-align: center;
+}
