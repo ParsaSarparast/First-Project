@@ -9,6 +9,7 @@
 body{
     background-color: #eeeeee;
 }
+/* header */
 .divheader{
     position: relative;
     top: 0px;
@@ -70,6 +71,7 @@ a{
 .instagramicon{
     width: 40px;
 }
+/* nav bar */
 .divnav{
     position: relative;
     top: 0;
@@ -94,6 +96,7 @@ a{
     transform: scale(1.5);
     color: white;
 }
+/* body section 1 */
 .section1{
     position: relative;
     display: flex;
@@ -103,6 +106,7 @@ a{
     border-bottom: 3px solid #293241;
     border-radius: 10px;
 }
+/* quality box */
 .div1section1{
     position: relative;
     display: flex;
@@ -134,6 +138,7 @@ a{
     font-size: 25px;
 
 }
+/* cost box */
 .div2section1{
     position: relative;
     display: flex;
@@ -165,6 +170,7 @@ a{
     font-family: tisaregular;
     font-size: 25px;
 }
+/* fast box */
 .div3section1{
     position: relative;
     display: flex;
