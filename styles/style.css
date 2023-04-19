@@ -30,7 +30,7 @@ height: 125px;
     position: absolute;
     display: inline-block;
     top: 90px;
-    left: 34%
+    left: 34%;
 }
 .inputsearch{
     width: 700px;
@@ -43,7 +43,7 @@ height: 125px;
 ::-webkit-input-placeholder {
     text-align: center;
 }
-.divicon{
+.divsearchicon{
     position: absolute;
     display: inline-block;
     left: 705px;
@@ -58,19 +58,14 @@ a{
 .divsocialmedia{
     position: absolute;
     display: inline-block;
-    left: 93%;
+    left: 88%;
     top: 77%;
     cursor: pointer;
 }
-.telegramicon{
+.telegramicon, .discordicon, .instagramicon {
     width: 40px;
 }
-.discordicon{
-    width: 40px;
-}
-.instagramicon{
-    width: 40px;
-}
+
 /* nav bar */
 .divnav{
     position: relative;
