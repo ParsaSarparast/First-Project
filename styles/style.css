@@ -123,9 +123,6 @@ a{
     border: 2px solid #ee6c4d;
     cursor: pointer;
 }
-.qualityicon{
-    width: 80px;
-}
 .p1{
     font-family: tisabold;
     font-size: 25px;
@@ -158,9 +155,6 @@ a{
     border: 2px solid #ee6c4d;
     cursor: pointer;
 }
-.costicon{
-    width: 80px;
-}
 .p3{
     font-family: tisabold;
     font-size: 25px;
@@ -190,9 +184,6 @@ a{
     background-color: #2B4162;
     border: 2px solid #ee6c4d;
     cursor: pointer;
-}
-.fasticon{
-    width: 80px;
 }
 .p5{
     font-family: tisabold;
