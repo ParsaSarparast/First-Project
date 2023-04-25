@@ -10,17 +10,18 @@
 }
 .divsearch{
     top: 120px;
-    left: 17%;
+    left: 22%;
 }
 .inputsearch{
-    width: 300px;
+    width: 250px;
+    height: 25px;
 }
 .divsearchicon{
-    left: 300px;
-    top: -8px;
+    left: 258px;
+    top: -7px;
 }
 .searchicon{
-    width: 45px;
+    width: 40px;
 }
 .divsocialmedia{
     left: 3%;
@@ -28,9 +29,7 @@
 }
 .telegramicon, .discordicon, .instagramicon {
     width: 25px;
-}
-.navul{
-    left: 25px;
+
 }
 .navli{
     font-size: 15px;

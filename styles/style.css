@@ -11,26 +11,21 @@ body{
 }
 /* header */
 .divheader{
-    position: relative;
-    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     background-image: linear-gradient(to top, #a7a7a7, #6DADDB);
 }
 .divlogo{
-    position: absolute;
-    display: inline-block;
-    left: 25%;
-    top: 40px
+   margin-right: 15px;
 }
 .imglogo{
-width: 140px;
-height: 125px;
+    width: 140px;
+    height: 125px;
 }
 .divsearch{
-    position: absolute;
-    display: inline-block;
-    top: 90px;
-    left: 34%;
+    margin-right: 5px;
 }
 .inputsearch{
     width: 700px;
@@ -44,10 +39,7 @@ height: 125px;
     text-align: center;
 }
 .divsearchicon{
-    position: absolute;
-    display: inline-block;
-    left: 705px;
-    top: -14px;
+
 }
 .searchicon{
     cursor: pointer;
@@ -57,10 +49,9 @@ a{
 }
 .divsocialmedia{
     position: absolute;
-    display: inline-block;
-    left: 88%;
-    top: 77%;
     cursor: pointer;
+    margin-top: 150px;
+    margin-left: 80%;
 }
 .telegramicon, .discordicon, .instagramicon {
     width: 40px;
@@ -69,13 +60,15 @@ a{
 /* nav bar */
 .divnav{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     height: 50px;
     background-image: linear-gradient(#12100E, #2B4162);
 }
 .navul{
     position: absolute;
-    left: 630px;
 }
 .navli{
     display: inline-block;
@@ -83,7 +76,7 @@ a{
     font-family: tisabold;
     font-size: 20px;
     list-style: none;
-    margin-left: 80px;
+    margin-left: 100px;
     cursor: pointer;
     transition: 300ms ease-in-out;
 }
