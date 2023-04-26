@@ -24,8 +24,7 @@
     width: 40px;
 }
 .divsocialmedia{
-    left: 3%;
-    top: 85%;
+    margin-left: 75%;
 }
 .telegramicon, .discordicon, .instagramicon {
     width: 25px;
