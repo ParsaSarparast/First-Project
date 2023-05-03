@@ -183,3 +183,105 @@ a{
     font-family: tisaregular;
     font-size: 25px;
 }
+.divaside{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    right: 0;
+    width: 80px;
+    height: 400px;
+    background-color: #6882a3;
+    margin-left: 0;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.li1 {
+    list-style: none;
+    margin-top: 55px;
+    margin-right: 20px;
+    transition: 200ms ease-in-out;
+}
+.li1:hover{
+    scale: 1.2;
+}
+.li1:target{
+    background-color: red;
+}
+#user{
+   color: black;
+}
+#brief{
+    color: black;
+}
+#heart{
+    color: black;
+}
+.divsection2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#div1{
+    cursor: pointer;
+    margin-top: 70px;
+    border: 4px solid #3d5a80;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div1:target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ee6c4d;
+    height: 300px;
+    transition: all 300ms ease-in-out;
+}
+#div2{
+    cursor: pointer;
+    margin-top: 70px;
+    border: 4px solid #3d5a80;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div2:target{
+    border: 2px solid #ee6c4d;
+    height: 300px;
+    transition: all 300ms ease-in-out;
+}
+#div3{
+    cursor: pointer;
+    margin-top: 70px;
+    border: 4px solid #3d5a80;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div3:target{
+    border: 2px solid #ee6c4d;
+    height: 300px;
+    transition: all 300ms ease-in-out;
+}
+.p7, .p9, .p11{
+    font-family: tisabold;
+    font-size: 40px;
+}
+.p8, .p10, .p12{
+    font-family: tisaregular;
+    font-size: 20px;
+    display: none;
+}
+:target {
+    background-color: #3f516d;
+    width: 300px;
+  }
