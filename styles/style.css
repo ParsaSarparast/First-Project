@@ -342,6 +342,7 @@ a{
     position: absolute;
     width: 8%;
     height: 380px;
+    border-radius: 20px;
     background-color: gray;
     top: 10px;
     right:-20%;
